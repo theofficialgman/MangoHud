@@ -592,6 +592,8 @@ parse_overlay_config(struct overlay_params *params,
    params->enabled[OVERLAY_PARAM_ENABLED_cpu_stats] = true;
    params->enabled[OVERLAY_PARAM_ENABLED_gpu_stats] = true;
    params->enabled[OVERLAY_PARAM_ENABLED_ram] = false;
+   params->enabled[OVERLAY_PARAM_ENABLED_ram_clock] = false;
+   params->enabled[OVERLAY_PARAM_ENABLED_ram_bandwidth] = false;
    params->enabled[OVERLAY_PARAM_ENABLED_swap] = false;
    params->enabled[OVERLAY_PARAM_ENABLED_vram] = false;
    params->enabled[OVERLAY_PARAM_ENABLED_read_cfg] = false;
